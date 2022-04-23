@@ -1,0 +1,136 @@
+
+
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --main-bg-color: #FFFFFF;
+    --section-bg-color: #F5F4FA;
+    --footer-bg-color: #2F303A;
+    --footer-address-color: rgba(255, 255, 255, 0.6) ;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    color: var(--title-text-color);
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+.logo-span {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.contact.list .link {
+    color: var(--primary-text-color);
+}
+
+.contact.list .link:hover,
+.contact.list .link:focus {
+    color: var(--accent-color);
+}
+
+/* site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: var(--accent-color)
+}
+
+.site-nav .link.current {
+    color: var(--accent-color)
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+.button {
+    color: var(--main-bg-color);
+    background-color: var(--accent-color);
+    
+}
+
+.button.primary {
+    color: var(--main-bg-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--section-bg-color);
+}
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+.team .title {
+    color: var(--title-text-color);
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+}
+
+footer .logo {
+    color: var(--main-bg-color);
+}
+
+address > a {
+    color: var(--footer-address-color);
+}
+
+.list .contact {
+    color: var(--footer-address-color);
+}
+
+
+
+
+
+/* portfolio */
+
+
+.filtr .link:hover,
+.filtr .link:focus {
+    color: var(--main-bg-color);
+    background-color: var(--accent-color);
+}
+
+a > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    
+    color: var(--primary-text-color);
+}
