@@ -5,6 +5,7 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --main-btn-secondary-color: #188CE8;
     --main-bg-color: #FFFFFF;
     --section-bg-color: #F5F4FA;
     --footer-bg-color: #2F303A;
@@ -58,6 +59,10 @@ a {
 
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus{
@@ -68,6 +73,20 @@ a {
     color: var(--accent-color)
 }
 
+/* hero */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
 .section-title {
     color: var(--title-text-color);
 }
@@ -75,8 +94,10 @@ a {
 .button {
     color: var(--main-bg-color);
     background-color: var(--accent-color);
+    cursor: pointer;
     
 }
+
 
 .button.primary {
     color: var(--main-bg-color);
@@ -88,12 +109,83 @@ a {
     background-color: var(--section-bg-color);
 }
 
+.button.secondary:hover,
+.button.secondary:focus{
+    color: var(--main-bg-color);
+    background-color: var(--accent-color);
+}
+
+.main-btn {
+    padding: 10px 32px;
+    background-color: var(--accent-color);
+    margin-bottom: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: var(--accent-color);
+}
+
+.main-btn:hover,
+.main-btn:focus {
+
+    background-color: var(--main-btn-secondary-color);
+}
+
 .feature-list .title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-descr {
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+}
+
+.job-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* .list.job img {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+} */
+
+.team-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team .title {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+}
+
+.person-job {
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
 }
 
 footer {
@@ -105,11 +197,33 @@ footer .logo {
 }
 
 address > a {
-    color: var(--footer-address-color);
+    color: var(--main-bg-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+}
+
+address>a:hover,
+address>a:focus{
+    color: var(--accent-color);
 }
 
 .list .contact {
     color: var(--footer-address-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+}
+
+.list .contact:hover,
+.list .contact:focus {
+    color: var(--accent-color);
 }
 
 
@@ -126,11 +240,26 @@ address > a {
 }
 
 a > p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.8;
     
     color: var(--primary-text-color);
+}
+
+.button.portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border-color: var(--section-bg-color);
+}
+
+.button.portfolio:hover,
+.button.portfolio:focus{
+
 }
