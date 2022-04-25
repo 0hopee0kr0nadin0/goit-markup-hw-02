@@ -30,7 +30,7 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.1;
+    line-height: 1.19;
 }
 
 .logo:hover,
@@ -61,7 +61,7 @@ a {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .site-nav .link:hover, 
@@ -77,7 +77,7 @@ a {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     /* or 136% */
     
     text-align: center;
@@ -88,6 +88,13 @@ a {
 }
 
 .section-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+
     color: var(--title-text-color);
 }
 
@@ -96,6 +103,7 @@ a {
     background-color: var(--accent-color);
     cursor: pointer;
     
+    font-family: inherit;
 }
 
 
@@ -116,6 +124,10 @@ a {
 }
 
 .main-btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+
     padding: 10px 32px;
     background-color: var(--accent-color);
     margin-bottom: 200px;
@@ -134,14 +146,14 @@ a {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .features-descr {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
     
     letter-spacing: 0.03em;
@@ -150,7 +162,7 @@ a {
 .job-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -165,7 +177,7 @@ a {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -174,7 +186,7 @@ a {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     /* identical to box height */
     
     letter-spacing: 0.03em;
@@ -182,7 +194,7 @@ a {
 
 .person-job {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     /* identical to box height */
     
     letter-spacing: 0.03em;
@@ -196,11 +208,11 @@ footer .logo {
     color: var(--main-bg-color);
 }
 
-address > a {
+address  a{
     color: var(--main-bg-color);
     font-style: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
     
     letter-spacing: 0.03em;
@@ -213,9 +225,9 @@ address>a:focus{
 
 .list .contact {
     color: var(--footer-address-color);
-    font-style: normal;
     font-size: 14px;
-    line-height: 24px;
+    font-weight: 400;
+    line-height: 1.71;
     /* or 171% */
     
     letter-spacing: 0.03em;
@@ -242,7 +254,8 @@ address>a:focus{
 a > p {
     
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
     
     color: var(--primary-text-color);
 }
@@ -250,7 +263,7 @@ a > p {
 .button.portfolio {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     /* identical to box height, or 162% */
     
     text-align: center;
